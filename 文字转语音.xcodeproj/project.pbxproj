@@ -15,6 +15,7 @@
 		30DCEEF41E86B68A00442696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DCEEF21E86B68A00442696 /* LaunchScreen.storyboard */; };
 		30DCEEFF1E86B68A00442696 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEEFE1E86B68A00442696 /* _____Tests.m */; };
 		30DCEF0A1E86B68A00442696 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEF091E86B68A00442696 /* _____UITests.m */; };
+		30DCEF1C1E86CA5700442696 /* TTSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30DCEF1B1E86CA5700442696 /* TTSpeechController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		30DCEF051E86B68A00442696 /* 文字转语音UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "文字转语音UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DCEF091E86B68A00442696 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		30DCEF0B1E86B68A00442696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DCEF1A1E86CA5700442696 /* TTSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSpeechController.h; sourceTree = "<group>"; };
+		30DCEF1B1E86CA5700442696 /* TTSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSpeechController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				30DCEEE81E86B68A00442696 /* AppDelegate.m */,
 				30DCEEEA1E86B68A00442696 /* ViewController.h */,
 				30DCEEEB1E86B68A00442696 /* ViewController.m */,
+				30DCEF1A1E86CA5700442696 /* TTSpeechController.h */,
+				30DCEF1B1E86CA5700442696 /* TTSpeechController.m */,
 				30DCEEED1E86B68A00442696 /* Main.storyboard */,
 				30DCEEF01E86B68A00442696 /* Assets.xcassets */,
 				30DCEEF21E86B68A00442696 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				30DCEEEC1E86B68A00442696 /* ViewController.m in Sources */,
 				30DCEEE91E86B68A00442696 /* AppDelegate.m in Sources */,
 				30DCEEE61E86B68A00442696 /* main.m in Sources */,
+				30DCEF1C1E86CA5700442696 /* TTSpeechController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				30DCEF101E86B68A00442696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DCEF111E86B68A00442696 /* Build configuration list for PBXNativeTarget "文字转语音Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				30DCEF131E86B68A00442696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30DCEF141E86B68A00442696 /* Build configuration list for PBXNativeTarget "文字转语音UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				30DCEF161E86B68A00442696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
